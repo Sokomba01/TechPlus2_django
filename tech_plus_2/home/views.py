@@ -5,7 +5,7 @@ from w3lib import form
 
 
 def index(request):
-    return render(request, 'signup.html')
+    return render(request, 'index.html')
 
 
 def SignUp(request):
