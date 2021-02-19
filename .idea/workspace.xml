@@ -52,9 +52,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tech_plus_2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d67d8bc6-6206-4efa-9b9c-b730fa67897d" name="Default Changelist" comment="" />
@@ -65,6 +69,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< Updated upstream
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -75,5 +80,12 @@
         </entry>
       </map>
     </option>
+=======
+  <component name="WindowStateProjectService">
+    <state x="420" y="134" key="FileChooserDialogImpl" timestamp="1613666973020">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="420" y="134" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1613666973020" />
+>>>>>>> Stashed changes
   </component>
 </project>
