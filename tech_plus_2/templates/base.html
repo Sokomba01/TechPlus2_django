@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <style>
       	footer {
 		color: #FFB6C1;
@@ -15,136 +17,157 @@
 }
 
 
+
+
+
     </style>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
     <title>{% block title %} {% endblock title %}</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler"
+            data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
 
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
 
 
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
+                <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
 
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-    {% block body %}
-
-    {% endblock body %}
-    <!-- Footer -->
-    <footer class="text-lg-start">
-  <!-- Grid container -->
-  <div class="container ">
-    <!--Grid row-->
-    <div class="row pt-4 ">
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ml-0 pl-0  ">
-        <h4 class=" text-dark mb-4 ">Find</h4>
-
-        <ul class="list-unstyled mb-0">
-<div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit" class="btn-success btn-rounded">Search</i></button>
-    </form>
-  </div>        </ul>
-      </div>
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-        <h4 class="mb-0 text-dark mb-5">Company</h4>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="text-dark">Terms</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Policy</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Pricing</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Email</a>
-          </li>
+            </li>
         </ul>
-      </div>
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-dark">
-        <h4 class="mb-5">Locations</h4>
+        <form class="form-inline my-2 my-lg-0">
 
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#!" class="text-dark">Victoria, BC</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Vancouver, BC</a>
-          </li>
-          <li>
-            <a href="#!" class="text-dark">Toronto, ON</a>
-          </li>
-        </ul>
-      </div>
-      <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-dark">
-         <div class="f_social_icon">
-                                    <a href="#" class="fab fa-facebook"></a>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                    <a href="#" class="fab fa-linkedin"></a>
-                                    <a href="#" class="fab fa-pinterest"></a>
-                                </div>
-
-
-      </div>
-      <!--Grid column-->
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
-<<hr class="solid ">
-  <!-- Copyright -->
-  <div class="text-center p-4 h-30 " >
+</nav>
+{% block body %}
 
-    <a class="text-dark" href="https://mdbootstrap.com/">  © 2020 Copyright:</a>
-  </div>
-  <!-- Copyright -->
+{% endblock body %}
+<!-- Footer -->
+<footer class="text-lg-start">
+    <!-- Grid container -->
+    <div class="container ">
+        <!--Grid row-->
+        <div class="row pt-4 ">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ml-0 pl-0  ">
+                <h4 class=" text-dark mb-4 ">Find</h4>
+
+                <ul class="list-unstyled mb-0">
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <input name="search" placeholder="Search.." type="text">
+                            <button class="btn-success btn-rounded" type="submit">Search</i></button>
+                        </form>
+                    </div>
+                </ul>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+                <h4 class="mb-0 text-dark mb-5">Company</h4>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="text-dark" href="#!">Terms</a>
+                    </li>
+                    <li>
+                        <a class="text-dark" href="#!">Policy</a>
+                    </li>
+                    <li>
+                        <a class="text-dark" href="#!">Pricing</a>
+                    </li>
+                    <li>
+                        <a class="text-dark" href="#!">Email</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-dark">
+                <h4 class="mb-5">Locations</h4>
+
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <a class="text-dark"  href="#!">Victoria, BC</a>
+                    </li>
+                    <li>
+                        <a class="text-dark" href="#!">Vancouver, BC</a>
+                    </li>
+                    <li>
+                        <a class="text-dark" href="#!">Toronto, ON</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-dark">
+                <div class="f_social_icon">
+                    <div class="template-demo">
+                        <button class="btn btn-social-icon btn-facebook btn-rounded" type="button"><i
+                                class="fa fa-facebook"></i></button>
+                        <button class="btn btn-social-icon btn-twitter btn-rounded" type="button"><i
+                                class="fa fa-twitter"></i></button>
+                        <button class="btn btn-social-icon btn-linkedin btn-rounded" type="button"><i
+                                class="fa fa-linkedin"></i></button>
+                        <button class="btn btn-social-icon btn-instagram btn-rounded" type="button"><i
+                                class="fa fa-instagram"></i></button>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+    <
+    <hr class="solid ">
+    <!-- Copyright -->
+    <div class="text-center p-4 h-30 ">
+
+        <a class="text-dark" href="https://mdbootstrap.com/"> © 2020 Copyright:</a>
+    </div>
+    <!-- Copyright -->
 </footer>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 </html>
