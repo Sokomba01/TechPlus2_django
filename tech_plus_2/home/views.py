@@ -15,6 +15,16 @@ def SignInPage(request):
 def SignUpPage(request):
     return render(request, 'signup.html')
 
+def TermsPage(request):
+    return render(request, 'terms.html')
+
+def PolicyPage(request):
+    return render(request, 'policy.html')
+
+def PricingPage(request):
+    return render(request, 'pricing.html')
+
+
 def SignUp(request):
     if request.method == 'POST':
         fname = request.POST["fname"]
