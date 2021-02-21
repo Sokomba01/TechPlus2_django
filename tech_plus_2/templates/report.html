@@ -1,0 +1,231 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title%} Dashboard {% endblock title %}
+{% block body %}
+
+<nav class="navbar navbar-expand-lg " style="background: #ffbfde;">
+    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler"
+            data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            </li>
+            <li class="nav-item">
+                <button class="btn mr-5 bg-light">Your Dashboard</button>
+                <img class="img-fluid thumbnail  " src="{% static 'images/1.png' %}" width="3%"/>
+
+            </li>
+            <li class="nav-item">
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 ml-auto mr-5">
+            <img class="img-fluid ml-auto bg-light p-2 rounded" type="button" src="{% static 'images/question.png' %}" width="7%"/>
+        </form>
+    </div>
+</nav>
+
+<div class="container-fluid" style="background: #ffbfde;">
+    <div class="container bg-light text-center" style="border-radius: 40px; ">
+        <!-- Top Four Buttons Patient ID etc -->
+        <div class="row pt-3 text-center ml-5">
+            <div class="col-md-3">
+                <button class=" btn btn btn-block" style="background:#E5E2E1; border-radius: 10px;">Patient Info
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class=" btn btn btn-block" style="background:#E5E2E1; border-radius: 10px;">Report Type
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class=" btn btn btn-block" style="background:#E5E2E1; border-radius: 10px;">Scheduled
+                    Time
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button class=" btn btn-primary p-3">
+                </button>
+            </div>
+        </div>
+        <!-- Top Four Buttons Patient ID etc -->
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-2">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable2" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable3" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable4" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable5" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-4">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-4">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-4">
+                <lable name="lable2" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-3">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable2" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable3" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-6">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-6">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-6">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-6">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-3">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable2" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable3" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-4">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-4">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-4">
+                <lable name="lable2" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-2">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable2" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable3" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable4" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-2">
+                <lable name="lable5" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-6">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-6">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+
+        </div>
+        <div class="row pt-3 text-center vertical-divider">
+            <div class="col-md-3">
+                <lable name="lable" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable1" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable2" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+            <div class="col-md-3">
+                <lable name="lable3" style=" border-bottom: 1px dotted #000;">Variable
+                </lable>
+            </div>
+        </div>
+        <!-- Buttons Two-->
+        <div class="row text-center">
+            <div class="col-md-6">
+                <button class=" btn btn-success w-50 p-2 m-5 mt-5 " style="border-radius: 10px;"> Download</button>
+            </div>
+            <div class="col-md-6">
+                <button class=" btn btn-success w-50 p-2 m-5 mt-5 " style="border-radius: 10px;"> Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body%}

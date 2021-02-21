@@ -70,6 +70,7 @@
     <servers />
   </component>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -81,11 +82,16 @@
       </map>
     </option>
 =======
+=======
+>>>>>>> Stashed changes
   <component name="WindowStateProjectService">
     <state x="420" y="134" key="FileChooserDialogImpl" timestamp="1613666973020">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="420" y="134" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1613666973020" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   </component>
 </project>

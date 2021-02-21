@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title%} Terms {% endblock title %}
+{% block body %}
+
+<div class="container-fluid text-center  " style="background: #ffbfde;">
+    <div>
+        <img class="img-fluid thumbnail w50 mt-5 pb-2" src="{% static 'images/1.png' %}" width="17%"/>
+    </div>
+    <h3>Ditch The Paperwork</h3>
+    <p>Submit the health form in 60 sec or less</p>
+    <button class="btn" style="background: #ff99d7;" type="submit">Continue to website</button>
+    <h5>How It Works</h5>
+    <div class="container-fluid " style="background: #ffbfde;">
+        <!--Grid row-->
+        <div class="row pt-4 ">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ml-0 pl-0  text-center">
+                <h6 class=" text-dark mb-4 ">Take a photo, or upload</h6>
+                <ul class="list-unstyled mb-5">
+                    <img class="img-fluid thumbnail " src="{% static 'images/folder.png' %}" width="15%"/>
+                </ul>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-center">
+                <h6 class=" text-dark mb-4 ">Select Time</h6>
+                <ul class="list-unstyled mb-0">
+                    <img class="img-fluid thumbnail " src="{% static 'images/calender.png' %}" width="15%"/>
+                </ul>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4  mb-md-0 text-dark text-center">
+                <h6 class=" text-dark mb-4 ">Connect with provider</h6>
+                <ul class="list-unstyled mb-0">
+                    <img class="img-fluid thumbnail " src="{% static 'images/provider.png' %}" width="15%"/>
+                </ul>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+</div>
+<div class="container ">
+    <!--Grid row-->
+    <div class="row pt-4 ">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 pt-5 mt-5 text-center ">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <ul class="list-unstyled mb-0 mt-3">
+                <div class="search-container">
+                    <h4>Tehseen Arshad</h4>
+                </div>
+            </ul>
+            <ul class="list-unstyled mb-0">
+                <div class="search-container">
+                    <p>This site is very nice</p>
+                </div>
+            </ul>
+        </div>        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 pt-5 mt-5 text-center ">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <ul class="list-unstyled mb-0 mt-3">
+                <div class="search-container">
+                    <h4>Ali Raza</h4>
+                </div>
+            </ul>
+            <ul class="list-unstyled mb-0">
+                <div class="search-container">
+                    <p>Seplended </p>
+                </div>
+            </ul>
+        </div>        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 pt-5 mt-5 text-center ">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <ul class="list-unstyled mb-0 mt-3">
+                <div class="search-container">
+                    <h4>Mohabbat ALi</h4>
+                </div>
+            </ul>
+            <ul class="list-unstyled mb-0">
+                <div class="search-container">
+                    <p>Great to see here</p>
+                </div>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0   text-center">
+            <img class="img-fluid thumbnail mb-4 pl-5 ml-5" src="{% static 'images/moble_frame.png' %}" width="70%"/>
+        </div>
+    </div>
+    <!--Grid row-->
+</div>
+
+{% endblock body%}
