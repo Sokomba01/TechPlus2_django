@@ -7,7 +7,7 @@ from w3lib import form
 
 
 def index(request):
-    return render(request, 'report.html')
+    return render(request, 'index.html')
 
 def SignInPage(request):
     return render(request, 'login.html')
